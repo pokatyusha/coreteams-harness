@@ -1,0 +1,18 @@
+{
+  "protocol_version": "1.0",
+  "kind": "request",
+  "request_id": "CTH-EXAMPLE-001",
+  "from": "coordinator",
+  "to": "arina-storage",
+  "operation": "connection_check",
+  "harness_sha": "1234567890abcdef1234567890abcdef12345678",
+  "authority": {"github_login": "pokatyusha", "evidence_url": "https://github.com/pokatyusha/coreteams-harness/issues/1"},
+  "source": null,
+  "contracts": [],
+  "permissions": ["read_repo", "post_issue_reply"],
+  "goal": "SYNTHETIC EXAMPLE: подтвердить чтение профиля и протокола; не запускать продукт",
+  "acceptance_checks": ["Совпадают адрес и harness SHA", "Ответ в том же Issue содержит ограничения"],
+  "limits": ["Один ручной проход", "Продуктовые проверки NOT_RUN", "Без фоновой работы и слияний"],
+  "tracker_urls": [],
+  "supersedes": null
+}

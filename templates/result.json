@@ -1,0 +1,18 @@
+{
+  "protocol_version": "1.0",
+  "kind": "event",
+  "event_id": "CTH-EXAMPLE-001-RESULT-1",
+  "request_id": "CTH-EXAMPLE-001",
+  "from": "arina-storage",
+  "to": "coordinator",
+  "status": "completed",
+  "harness_sha": "1234567890abcdef1234567890abcdef12345678",
+  "source_sha": null,
+  "recorded_at": "2026-10-27T12:01:00+03:00",
+  "summary": "SYNTHETIC EXAMPLE: профиль и протокол прочитаны",
+  "blockers": [],
+  "artifacts": [],
+  "checks": [{"name": "Продуктовый E2E", "command": null, "outcome": "NOT_RUN", "evidence_url": null}],
+  "limitations": ["Пример, не ответ действующего агента", "Совместимость компонентов не проверялась"],
+  "next_action": "Координатор проверяет ответ; продуктовая работа требует отдельного запроса"
+}

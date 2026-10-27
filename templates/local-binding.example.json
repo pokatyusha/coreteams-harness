@@ -1,0 +1,11 @@
+{
+  "agent_id": "arina-storage",
+  "github_login": "<your-login>",
+  "harness_sha": "<40-character-harness-SHA>",
+  "source_root": "<absolute-local-source-path>",
+  "source_repository": "AcryCxde/PP-Sber-Autumn-2026",
+  "source_branch": "<agreed-branch>",
+  "source_sha": "<40-character-source-SHA>",
+  "allowed_paths": ["<agreed-relative-path>"],
+  "mode": "manual-one-request"
+}

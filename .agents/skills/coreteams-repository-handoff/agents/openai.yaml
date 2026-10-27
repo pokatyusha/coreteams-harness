@@ -1,0 +1,4 @@
+interface:
+  display_name: "CoreTeams repository handoff"
+  short_description: "Ручной обмен заданиями между обвязками CoreTeams"
+  default_prompt: "Используй $coreteams-repository-handoff для одного адресованного GitHub Issue и проверяемого ответа."

@@ -1,0 +1,14 @@
+{
+  "protocol_version": "1.0",
+  "repository": "pokatyusha/coreteams-harness",
+  "source_repository": "AcryCxde/PP-Sber-Autumn-2026",
+  "mode": "manual-one-request",
+  "background_checks": false,
+  "merges_allowed": false,
+  "coordinator": {"agent_id": "coordinator", "owner": "Катя", "github_login": "pokatyusha"},
+  "agents": [
+    {"agent_id": "arina-storage", "owner": "Арина", "profile": "profiles/arina.md", "connection_status": "NOT_CONFIGURED"},
+    {"agent_id": "filipp-infra", "owner": "Филипп", "profile": "profiles/filipp.md", "connection_status": "NOT_CONFIGURED"},
+    {"agent_id": "dima-gateway", "owner": "Дима", "profile": "profiles/dima.md", "connection_status": "NOT_CONFIGURED"}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "protocol_version": "1.0",
+  "kind": "event",
+  "event_id": "CTH-EXAMPLE-001-ACK-1",
+  "request_id": "CTH-EXAMPLE-001",
+  "from": "arina-storage",
+  "to": "coordinator",
+  "status": "accepted",
+  "harness_sha": "1234567890abcdef1234567890abcdef12345678",
+  "source_sha": null,
+  "recorded_at": "2026-10-27T12:00:00+03:00",
+  "summary": "SYNTHETIC EXAMPLE: принят только connection_check",
+  "blockers": []
+}
